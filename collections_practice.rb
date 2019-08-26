@@ -36,7 +36,6 @@ def find_a(array)
       puts word
     end
   end
-  array
 end
 
 def sum_array
