@@ -31,10 +31,11 @@ def kesha_maker(array)
 end
 
 def find_a(array)
+  new_array = true
   array.map do |word|
     word.start_with?("a")
   end
-  array
+  new_array
 end
 
 def sum_array
